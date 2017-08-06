@@ -100,7 +100,7 @@ namespace PlayerReportsDetector
                                                 player.Distance + "|" +
                                                 player.Mounted + "|" +
                                                 StyxWoW.Me.IsSwimming + "|" +
-                                                new ScriptHelpers.NoUnstuck().IsStuck() + "|" +
+                                                new DungeonStuckHandler.IsStuck() + "|" +
                                                 StyxWoW.Me.Combat + "|" +
                                                 StyxWoW.Me.IsInInstance + "|");
                 }
