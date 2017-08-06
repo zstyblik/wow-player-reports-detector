@@ -10,7 +10,6 @@ using System.IO;
 #region Styx Namespace
 
 using System.Threading;
-using Bots.DungeonBuddy.Helpers;
 using Styx;
 using Styx.Plugins;
 using Styx.Common;
@@ -100,7 +99,6 @@ namespace PlayerReportsDetector
                                                 player.Distance + "|" +
                                                 player.Mounted + "|" +
                                                 StyxWoW.Me.IsSwimming + "|" +
-                                                new DungeonStuckHandler.IsStuck() + "|" +
                                                 StyxWoW.Me.Combat + "|" +
                                                 StyxWoW.Me.IsInInstance + "|");
                 }
